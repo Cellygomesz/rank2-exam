@@ -6,7 +6,7 @@
 /*   By: mgomes-s <mgomes-s@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/27 09:13:53 by mgomes-s          #+#    #+#             */
-/*   Updated: 2024/11/27 09:47:59 by mgomes-s         ###   ########.fr       */
+/*   Updated: 2024/11/27 14:57:53 by mgomes-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,14 +50,13 @@ int	prime(int num)
 
 void	sum(int num)
 {
-	while ()
+	int i = 0;
+
+	while (i <= num)
 	{
-		if (prime(num) == 0)
-		{
-			
-		}
-
-
+		if (prime(num) == 1)
+			write(1, &num, 1);
+		i++;
 	}
 
 }
